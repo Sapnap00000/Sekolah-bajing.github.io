@@ -1,0 +1,155 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #999999;
+}
+
+
+
+header {
+  /* background-color: gray; */
+  background: linear-gradient(to bottom, #444, #333);
+  display: inline-block;
+  justify-content: top;
+  align-items: top;
+  position: relative;
+  gap:;
+  width: 100%;
+}
+
+
+.div_logo_title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 5px;
+}
+.div_logo_title span {
+  font-family: Sans-Serif;
+  font-size: 35px;
+  width: 300px;
+  margin:0 20px 0 20px;
+  font-style: bold;
+  color: white;
+}
+#Logo_header {
+  border: 1.5px solid gray;
+  border-radius: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.Div_menu {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  gap: 5px;
+  background-color: #2c2c2c;
+}
+.Div_menu input{
+  background-color: white;
+  width: 210px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-left:10px ;
+}
+.Div_menu a {
+  list-style-type: none;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 5px 0 5px 0;
+  color: white;
+  background-color: darkorange;
+}
+.Div_menu a span {
+  font-size: 18px;
+  font-family: georgia, serif;
+}
+
+
+
+#form{
+  background-color: white;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+
+
+.div1{
+  background-color: red;
+  width: 70%;
+  height: 200px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  margin: 5px;
+}
+.div1 img{
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+.div2{
+  background-color: green;
+  width: 70%;
+  height: 200px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  margin: 5px;
+}
+.div2 img{
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+.div3{
+  background-color: blue;
+  width: 70%;
+  height: 200px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  margin: 5px;
+}
+.div3 img{
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+
+
+
+.kotak{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 3px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  right: 50px;
+  left: 100px;
+  background-color: red;
+  gap: 20px;
+  position: relative;
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: bottom;
+  background-color: dimgray;
+}
+#p_footer {
+  color: gold;
+  font-size: 17px;
+}
